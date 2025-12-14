@@ -216,8 +216,10 @@ Uygulama hava durumu tahminleri için bir backend API kullanır. API endpoint'i 
 
 ### API Endpoints
 
-- `GET /weather` - Konum bazlı hava durumu tahmini
-- `POST /predict` - Manuel verilerle hava durumu tahmini
+- `POST /predict` - Hava durumu tahmini
+  - Konum bazlı: `{ lat: number, lon: number }`
+  - Manuel verilerle: `{ features: { temp, humidity, wind_speed, pressure, clouds, uv_index } }`
+- `GET /health` - API sağlık kontrolü ve model durumu
 
 ---
 
