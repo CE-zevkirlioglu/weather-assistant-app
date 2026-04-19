@@ -16,6 +16,8 @@
 
 <sub>Built with Expo · React Native · TypeScript</sub>
 
+<sub>🔌 Backend API repo: <a href="https://github.com/CE-zevkirlioglu/weather-assistant-api"><strong>weather-assistant-api</strong></a></sub>
+
 </div>
 
 ---
@@ -130,6 +132,8 @@ weather-assistant-app/
 ---
 
 ## 🌐 Backend API
+
+**Source code:** [github.com/CE-zevkirlioglu/weather-assistant-api](https://github.com/CE-zevkirlioglu/weather-assistant-api)
 
 Default base URL lives in **`services/api.ts`** →  
 `https://weather-assistant-api.onrender.com`
